@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acak Nama</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/build/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container py-3">
+    <div class="row">
+      <!-- FORM -->
+      <div class="col-md-3">
+        <form id="form" class="mb-3">
+          <div class="input-group">
+            <input class="form-control" placeholder="Masukkan Nama" id="input-nama">
+            <button type="submit" class="btn btn-outline-dark">Add</button>
+          </div>
+        </form>
+      </div>
+      <!-- DATA -->
+      <div class="col-md-6">
+        <table class="table" id="table"></table>
+      </div>
+      <!-- RESULT -->
+      <div class="col-md-3">
+        <div class="text-center">
+          <h4 class="border p-2" id="result">result...</h4>
+          <button class="btn btn-primary" id="start" disabled>START</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- ASSETS -->
+  <script src="assets/build/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/build/js/jquery-3.7.1.slim.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
